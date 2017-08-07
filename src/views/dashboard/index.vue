@@ -1,13 +1,16 @@
 <template>
   <div>
     <h1>首页</h1>
-    <video ref="video" controls/>
+    <SimpleVideo src="http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4"/>
   </div>
 </template>
 
 <script>
+  import SimpleVideo from '@/components/video/SimpleVideo'
+
   export default {
     name: 'dashboard',
+    components: {SimpleVideo},
     data () {
       return {}
     },
@@ -15,14 +18,14 @@
     created () {
     },
     mounted () {
-      this.$refs.video.addEventListener('ended', this.videoEndedAction, false)
-      this.$refs.video.addEventListener('pause', this.videoPauseAction, false)
-      this.$refs.video.src = 'http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4'
+      //      this.$refs.video.addEventListener('ended', this.videoEndedAction, false)
+      //      this.$refs.video.addEventListener('pause', this.videoPauseAction, false)
+      //      this.$refs.video.src = 'http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4'
     },
     updated () {
     },
     activated () {
-      this.$refs.video.play()
+      //      this.$refs.video.play()
     },
     deactivated () {
     },
