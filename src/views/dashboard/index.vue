@@ -1,16 +1,17 @@
 <template>
   <div>
     <h1>首页</h1>
-    <VideoJsVideo src="http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4"/>
+    <!--http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4-->
+    <SimpleVideo src="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8"/>
   </div>
 </template>
 
 <script>
-  import VideoJsVideo from '@/components/video/VideoJsVideo'
+  import SimpleVideo from '@/components/video/SimpleVideo'
 
   export default {
     name: 'dashboard',
-    components: {VideoJsVideo},
+    components: {SimpleVideo},
     data () {
       return {}
     },
@@ -18,27 +19,16 @@
     created () {
     },
     mounted () {
-      //      this.$refs.video.addEventListener('ended', this.videoEndedAction, false)
-      //      this.$refs.video.addEventListener('pause', this.videoPauseAction, false)
-      //      this.$refs.video.src = 'http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4'
     },
     updated () {
     },
     activated () {
-      //      this.$refs.video.play()
     },
     deactivated () {
     },
     beforeDestroy () {
     },
-    methods: {
-      videoEndedAction () {
-        console.log('video ended ..')
-      },
-      videoPauseAction () {
-        console.log('video paused ..')
-      }
-    }
+    methods: {}
   }
 </script>
 

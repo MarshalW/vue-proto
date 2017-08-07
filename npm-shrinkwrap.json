@@ -3433,6 +3433,11 @@
       "integrity": "sha1-k0EP0hsAlzUVH4howvJx80J+I/0=",
       "dev": true
     },
+    "hls.js": {
+      "version": "0.7.11",
+      "resolved": "http://registry.npm.taobao.org/hls.js/download/hls.js-0.7.11.tgz",
+      "integrity": "sha1-6ESL41okNbrSS4uT2ef5wFZZuyg="
+    },
     "hmac-drbg": {
       "version": "1.0.1",
       "resolved": "http://registry.npm.taobao.org/hmac-drbg/download/hmac-drbg-1.0.1.tgz",
