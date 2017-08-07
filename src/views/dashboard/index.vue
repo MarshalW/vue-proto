@@ -1,16 +1,16 @@
 <template>
   <div>
     <h1>首页</h1>
-    <SimpleVideo src="http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4"/>
+    <VideoJsVideo src="http://yt-dash-mse-test.commondatastorage.googleapis.com/media/car-20120827-85.mp4"/>
   </div>
 </template>
 
 <script>
-  import SimpleVideo from '@/components/video/SimpleVideo'
+  import VideoJsVideo from '@/components/video/VideoJsVideo'
 
   export default {
     name: 'dashboard',
-    components: {SimpleVideo},
+    components: {VideoJsVideo},
     data () {
       return {}
     },

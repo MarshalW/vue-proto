@@ -700,8 +700,7 @@
     "babel-runtime": {
       "version": "6.23.0",
       "resolved": "http://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.23.0.tgz",
-      "integrity": "sha1-CpSJ8UTecO+zzkMArM2zKeL8VDs=",
-      "dev": true
+      "integrity": "sha1-CpSJ8UTecO+zzkMArM2zKeL8VDs="
     },
     "babel-template": {
       "version": "6.25.0",
@@ -1347,8 +1346,7 @@
     "core-js": {
       "version": "2.4.1",
       "resolved": "http://registry.npm.taobao.org/core-js/download/core-js-2.4.1.tgz",
-      "integrity": "sha1-TekR5mew6ukSTjQlS1OupvxhjT4=",
-      "dev": true
+      "integrity": "sha1-TekR5mew6ukSTjQlS1OupvxhjT4="
     },
     "core-util-is": {
       "version": "1.0.2",
@@ -1773,6 +1771,11 @@
         }
       }
     },
+    "dom-walk": {
+      "version": "0.1.1",
+      "resolved": "http://registry.npm.taobao.org/dom-walk/download/dom-walk-0.1.1.tgz",
+      "integrity": "sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg="
+    },
     "domain-browser": {
       "version": "1.1.7",
       "resolved": "http://registry.npm.taobao.org/domain-browser/download/domain-browser-1.1.7.tgz",
@@ -1958,6 +1961,11 @@
       "resolved": "http://registry.npm.taobao.org/error-stack-parser/download/error-stack-parser-2.0.1.tgz",
       "integrity": "sha1-oyArj7AxFKqbQKDjZp5IsrZaAQo=",
       "dev": true
+    },
+    "es5-shim": {
+      "version": "4.5.9",
+      "resolved": "http://registry.npm.taobao.org/es5-shim/download/es5-shim-4.5.9.tgz",
+      "integrity": "sha1-Kh4rnlg/9f7Qwgo+4svz91IwpcA="
     },
     "es6-promise": {
       "version": "4.0.5",
@@ -2412,6 +2420,11 @@
       "version": "1.2.4",
       "resolved": "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.2.4.tgz",
       "integrity": "sha1-NV6PTRaHa0P1d7DVziZouXIyFOo="
+    },
+    "for-each": {
+      "version": "0.3.2",
+      "resolved": "http://registry.npm.taobao.org/for-each/download/for-each-0.3.2.tgz",
+      "integrity": "sha1-LEBFC5NI6X8oEyJZO6lnBLmr1NQ="
     },
     "for-in": {
       "version": "1.0.2",
@@ -3058,13 +3071,13 @@
             }
           }
         },
-        "string-width": {
-          "version": "1.0.2",
+        "string_decoder": {
+          "version": "1.0.1",
           "bundled": true,
           "dev": true
         },
-        "string_decoder": {
-          "version": "1.0.1",
+        "string-width": {
+          "version": "1.0.2",
           "bundled": true,
           "dev": true
         },
@@ -3249,6 +3262,18 @@
       "resolved": "http://registry.npm.taobao.org/glob-parent/download/glob-parent-2.0.0.tgz",
       "integrity": "sha1-gTg9ctsFT8zPUzbaqQLxgvbtuyg=",
       "dev": true
+    },
+    "global": {
+      "version": "4.3.0",
+      "resolved": "http://registry.npm.taobao.org/global/download/global-4.3.0.tgz",
+      "integrity": "sha1-737EvurVebRU9evV5/MD21T0Kis=",
+      "dependencies": {
+        "process": {
+          "version": "0.5.2",
+          "resolved": "http://registry.npm.taobao.org/process/download/process-0.5.2.tgz",
+          "integrity": "sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8="
+        }
+      }
     },
     "globals": {
       "version": "9.18.0",
@@ -3586,6 +3611,11 @@
       "integrity": "sha1-gtwzbSMrkGIXnQWrMpOmYFn9Q10=",
       "dev": true
     },
+    "individual": {
+      "version": "2.0.0",
+      "resolved": "http://registry.npm.taobao.org/individual/download/individual-2.0.0.tgz",
+      "integrity": "sha1-gzsJfa0jKU52EXqY+zjg2a1hu5c="
+    },
     "inflight": {
       "version": "1.0.6",
       "resolved": "http://registry.npm.taobao.org/inflight/download/inflight-1.0.6.tgz",
@@ -3748,6 +3778,11 @@
       "resolved": "http://registry.npm.taobao.org/is-fullwidth-code-point/download/is-fullwidth-code-point-1.0.0.tgz",
       "integrity": "sha1-754xOG8DGn8NZDr4L95QxFfvAMs=",
       "dev": true
+    },
+    "is-function": {
+      "version": "1.0.1",
+      "resolved": "http://registry.npm.taobao.org/is-function/download/is-function-1.0.1.tgz",
+      "integrity": "sha1-Es+5i2W1fdPRk6MSH19uL0N2ArU="
     },
     "is-glob": {
       "version": "2.0.1",
@@ -4606,6 +4641,11 @@
       "integrity": "sha1-5md4PZLonb00KBi1IwudYqZyrRg=",
       "dev": true
     },
+    "min-document": {
+      "version": "2.19.0",
+      "resolved": "http://registry.npm.taobao.org/min-document/download/min-document-2.19.0.tgz",
+      "integrity": "sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU="
+    },
     "minimalistic-assert": {
       "version": "1.0.0",
       "resolved": "http://registry.npm.taobao.org/minimalistic-assert/download/minimalistic-assert-1.0.0.tgz",
@@ -5106,6 +5146,11 @@
       "resolved": "http://registry.npm.taobao.org/parse-glob/download/parse-glob-3.0.4.tgz",
       "integrity": "sha1-ssN2z7EfNVE7rdFz7wu246OIORw=",
       "dev": true
+    },
+    "parse-headers": {
+      "version": "2.0.1",
+      "resolved": "http://registry.npm.taobao.org/parse-headers/download/parse-headers-2.0.1.tgz",
+      "integrity": "sha1-aug6eqJanZtwCswoaYzR8e1+lTY="
     },
     "parse-json": {
       "version": "2.2.0",
@@ -6814,8 +6859,7 @@
     "regenerator-runtime": {
       "version": "0.10.5",
       "resolved": "http://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.10.5.tgz",
-      "integrity": "sha1-M2w+/BIgrc7dosn6tntaeVWjNlg=",
-      "dev": true
+      "integrity": "sha1-M2w+/BIgrc7dosn6tntaeVWjNlg="
     },
     "regenerator-transform": {
       "version": "0.9.11",
@@ -7019,6 +7063,11 @@
       "integrity": "sha1-A3GrSuC91yDUFm19/aZP96RFpsA=",
       "dev": true
     },
+    "rust-result": {
+      "version": "1.0.0",
+      "resolved": "http://registry.npm.taobao.org/rust-result/download/rust-result-1.0.0.tgz",
+      "integrity": "sha1-NMdbLm3Dn+WHXlveyFteD5FTb3I="
+    },
     "rx-lite": {
       "version": "3.1.2",
       "resolved": "http://registry.npm.taobao.org/rx-lite/download/rx-lite-3.1.2.tgz",
@@ -7036,6 +7085,11 @@
       "resolved": "http://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.1.tgz",
       "integrity": "sha1-iTMSr2myEj3vcfV4iQAWce6yyFM=",
       "dev": true
+    },
+    "safe-json-parse": {
+      "version": "4.0.0",
+      "resolved": "http://registry.npm.taobao.org/safe-json-parse/download/safe-json-parse-4.0.0.tgz",
+      "integrity": "sha1-fA9XjPzNEtM6ccDgVBPi7KFx6qw="
     },
     "samsam": {
       "version": "1.2.1",
@@ -7421,6 +7475,12 @@
       "integrity": "sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=",
       "dev": true
     },
+    "string_decoder": {
+      "version": "1.0.3",
+      "resolved": "http://registry.npm.taobao.org/string_decoder/download/string_decoder-1.0.3.tgz",
+      "integrity": "sha1-D8Z9fBQYJd6UKC3VNr7GubzoYKs=",
+      "dev": true
+    },
     "string-length": {
       "version": "1.0.1",
       "resolved": "http://registry.npm.taobao.org/string-length/download/string-length-1.0.1.tgz",
@@ -7431,12 +7491,6 @@
       "version": "1.0.2",
       "resolved": "http://registry.npm.taobao.org/string-width/download/string-width-1.0.2.tgz",
       "integrity": "sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=",
-      "dev": true
-    },
-    "string_decoder": {
-      "version": "1.0.3",
-      "resolved": "http://registry.npm.taobao.org/string_decoder/download/string_decoder-1.0.3.tgz",
-      "integrity": "sha1-D8Z9fBQYJd6UKC3VNr7GubzoYKs=",
       "dev": true
     },
     "stringstream": {
@@ -7622,6 +7676,11 @@
       "integrity": "sha1-8IH3bkyFcg5sN6X6ztc3FQ2EByo=",
       "dev": true
     },
+    "trim": {
+      "version": "0.0.1",
+      "resolved": "http://registry.npm.taobao.org/trim/download/trim-0.0.1.tgz",
+      "integrity": "sha1-WFhUf2spB1fulczMZm+1AITEYN0="
+    },
     "trim-newlines": {
       "version": "1.0.0",
       "resolved": "http://registry.npm.taobao.org/trim-newlines/download/trim-newlines-1.0.0.tgz",
@@ -7639,6 +7698,11 @@
       "resolved": "http://registry.npm.taobao.org/tryit/download/tryit-1.0.3.tgz",
       "integrity": "sha1-OTvnMKlEb9Hq1tpZoBQwjzbCics=",
       "dev": true
+    },
+    "tsml": {
+      "version": "1.0.1",
+      "resolved": "http://registry.npm.taobao.org/tsml/download/tsml-1.0.1.tgz",
+      "integrity": "sha1-ifghi52eJX9H1/a1bQHFpNLGj8M="
     },
     "tty-browserify": {
       "version": "0.0.0",
@@ -7834,6 +7898,43 @@
       "integrity": "sha1-z/XfEpRtKX0rqu+qJoniW+AcAFw=",
       "dev": true
     },
+    "video.js": {
+      "version": "5.20.2",
+      "resolved": "http://registry.npm.taobao.org/video.js/download/video.js-5.20.2.tgz",
+      "integrity": "sha1-nwthIaL4QfxLHEc9iYPvTRDGY7o="
+    },
+    "videojs-font": {
+      "version": "2.0.0",
+      "resolved": "http://registry.npm.taobao.org/videojs-font/download/videojs-font-2.0.0.tgz",
+      "integrity": "sha1-r3Rh751LleAzS/+3iy8v8DZKkDQ="
+    },
+    "videojs-ie8": {
+      "version": "1.1.2",
+      "resolved": "http://registry.npm.taobao.org/videojs-ie8/download/videojs-ie8-1.1.2.tgz",
+      "integrity": "sha1-oj09hgitcZK2nGB3/E64SJmNNdk="
+    },
+    "videojs-swf": {
+      "version": "5.4.1",
+      "resolved": "http://registry.npm.taobao.org/videojs-swf/download/videojs-swf-5.4.1.tgz",
+      "integrity": "sha1-IHfvccdJ8seCPvSbq65N0qywj4c="
+    },
+    "videojs-vtt.js": {
+      "version": "0.12.4",
+      "resolved": "http://registry.npm.taobao.org/videojs-vtt.js/download/videojs-vtt.js-0.12.4.tgz",
+      "integrity": "sha1-OPJJnjHvs/qTWQ3a1MtmMnWksWE=",
+      "dependencies": {
+        "global": {
+          "version": "4.3.2",
+          "resolved": "http://registry.npm.taobao.org/global/download/global-4.3.2.tgz",
+          "integrity": "sha1-52mJJopsdMOJCLEwWxD8DjlOnQ8="
+        },
+        "process": {
+          "version": "0.5.2",
+          "resolved": "http://registry.npm.taobao.org/process/download/process-0.5.2.tgz",
+          "integrity": "sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8="
+        }
+      }
+    },
     "vm-browserify": {
       "version": "0.0.4",
       "resolved": "http://registry.npm.taobao.org/vm-browserify/download/vm-browserify-0.0.4.tgz",
@@ -7925,6 +8026,11 @@
       "resolved": "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.5.3.tgz",
       "integrity": "sha1-Inh95ON+vZM5t0IjvEZ9Gt7jBUU=",
       "dev": true
+    },
+    "vue-video-player": {
+      "version": "3.1.4",
+      "resolved": "http://registry.npm.taobao.org/vue-video-player/download/vue-video-player-3.1.4.tgz",
+      "integrity": "sha1-cAmwbc7EObPqZFGDIX0xTL8NN/0="
     },
     "vuex": {
       "version": "2.3.1",
@@ -8145,6 +8251,11 @@
       "integrity": "sha1-OS2LotDxw00e4tYw8V0O+2jhBIo=",
       "dev": true
     },
+    "xhr": {
+      "version": "2.2.2",
+      "resolved": "http://registry.npm.taobao.org/xhr/download/xhr-2.2.2.tgz",
+      "integrity": "sha1-LuclcYafhobUFVmp6ihsGJcUNf8="
+    },
     "xml-char-classes": {
       "version": "1.0.0",
       "resolved": "http://registry.npm.taobao.org/xml-char-classes/download/xml-char-classes-1.0.0.tgz",
@@ -8166,8 +8277,7 @@
     "xtend": {
       "version": "4.0.1",
       "resolved": "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz",
-      "integrity": "sha1-pcbVMr5lbiPbgg77lDofBJmNY68=",
-      "dev": true
+      "integrity": "sha1-pcbVMr5lbiPbgg77lDofBJmNY68="
     },
     "y18n": {
       "version": "3.2.1",

@@ -33,5 +33,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## 版本历史
 
+* v0.3，实现封装videojs的video组件
 * v0.2, 实现最简单的video组件
 * v0.1，最简单的html5 mp4 video播放
