@@ -33,6 +33,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## 版本历史
 
+* v0.4.2, 识别mp4，使用native方式播放，iPhone video play inline
 * v0.4.1, 识别移动浏览器和safari，使用native hls，其他情况，使用hls.js
 * v0.4, 实现video标签支持hls播放，同时确定放弃videojs+hls插件方案
 * v0.3，实现封装videojs的video组件

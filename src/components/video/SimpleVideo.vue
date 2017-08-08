@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>简单视频组件</h3>
-    <video ref="video"/>
+    <video ref="video" playsinline/>
   </div>
 </template>
 
@@ -16,17 +16,19 @@
     mounted () {
       // 针对支持hls并且不是safari的浏览器
       if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent) ||
-        (typeof window.orientation !== 'undefined')) {
-        this.setHlsWithNative()
+        (typeof window.orientation !== 'undefined') ||
+        /^(http:\/\/|https:\/\/|www\.).*(\.mp4|\.mkv)$/.test(this.src)
+      ) {
+        this.setPlayWithNative()
       } else {
-        this.setHlsWithHlsJs()
+        this.setPlayWithHlsJs()
       }
     },
     activated () {
       this.$refs.video.play()
     },
     methods: {
-      setHlsWithHlsJs () {
+      setPlayWithHlsJs () {
         let hls = new Hls()
         let video = this.$refs.video
         hls.attachMedia(video)
@@ -58,7 +60,7 @@
           }
         })
       },
-      setHlsWithNative () {
+      setPlayWithNative () {
         this.$refs.video.src = this.src
       }
     }
